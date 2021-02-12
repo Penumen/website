@@ -1,0 +1,100 @@
+
+html {
+	background-color: rgb(68, 75, 100);
+}
+
+body {
+	font-family: "Calibri", sans-serif;
+	margin: 0 0 0 0;
+	
+}
+
+.wrapper {
+	color: rgb(151, 153, 165);
+}
+
+.inner_body {
+	margin: 0 0 2em 2%;
+}
+
+h1 {
+	margin: 0.5rem 0.5rem 0.5rem 1rem;
+	padding: 0;	
+	font-family: "Calibri", sans-serif;
+}
+
+h2 {
+	font-family: "Calibri", sans-serif;
+	font-size: medium;
+	
+}
+
+.column_left {
+	float: left;
+	margin: 0 20px 6px 24px;
+}
+
+.column_right {
+	float: left;
+	width: 50%;
+	max-width: 40em;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.col {
+	float: left;
+	width: 50%;
+	
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.major_row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 62em) {
+	.col {
+	  width: 100%;
+	}
+}
+ 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+	overflow: hidden;
+	background-color: rgb(76, 87, 124);
+}
+
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 12px 18px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: rgb(50, 43, 66);
+}
+
+.footer{
+	clear: both;
+	text-align: center;
+	padding: 4em;
+}
